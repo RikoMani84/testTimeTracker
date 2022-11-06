@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #ff4f4f; }
+  body .header-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 40px; }
+    body .header-page a {
+      font-family: "techno_hideo";
+      font-size: 48px;
+      color: black; }
+      body .header-page a span {
+        color: white; }
+  body .main-page .authorization-block .login-section .row {
+    max-width: 720px;
+    margin: 0 auto;
+    display: block;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px #8b3c3c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900; }
+    body .main-page .authorization-block .login-section .row .title {
+      text-align: center;
+      font-family: "techno_hideo"; }
+    body .main-page .authorization-block .login-section .row .col-md-4 {
+      width: 100%; }
+    body .main-page .authorization-block .login-section .row .col-12 .form-check {
+      display: flex;
+      justify-content: space-between; }
+    body .main-page .authorization-block .login-section .row .col-12 .btn-link {
+      text-decoration: none;
+      color: black; }
+    body .main-page .authorization-block .login-section .row .col-12 .btn-link:hover {
+      text-shadow: 2px 2px #ffffff; }
+    body .main-page .authorization-block .login-section .row .col-12:last-child {
+      display: flex;
+      justify-content: center; }
+      body .main-page .authorization-block .login-section .row .col-12:last-child .btn-dark {
+        padding: 16px;
+        width: 150px; }
+
+@font-face {
+  font-family: "techno_hideo";
+  src: url("../fonts/techno_hideo_bold.ttf"); }
