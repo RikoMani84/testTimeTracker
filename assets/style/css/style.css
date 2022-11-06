@@ -30,6 +30,12 @@ body {
         color: #ff4f4f; }
     body .main-page .primary-block h3 {
       margin-bottom: 32px; }
+    body .main-page .primary-block .time-section {
+      display: none;
+      font-size: 72px;
+      padding: 16px;
+      border: 1px solid;
+      margin-bottom: 32px; }
   body .main-page .authorization-block {
     display: none; }
     body .main-page .authorization-block .login-section {
@@ -93,4 +99,4 @@ body {
 
 @font-face {
   font-family: "techno_hideo";
-  src: url("../fonts/techno_hideo_bold.ttf"); }
+  src: url("/assets/fonts/techno_hideo_bold.ttf"); }

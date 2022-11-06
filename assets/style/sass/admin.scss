@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+
+    .header-page {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 40px;
+        background-color: #ff4f4f;
+
+        a {
+            font-family: "techno_hideo";
+            font-size: 48px;
+            color: black;
+
+            span {
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+
+    .main-pages {
+        max-width: 720px;
+        margin: 50px auto;
+        padding: 50px;
+        box-shadow: 0 0 15px 5px #ff4f4f;
+
+        .title {
+            color: aliceblue;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .table {
+            color: aliceblue;
+        }
+    }
+}
+
+@font-face {
+    font-family: "techno_hideo";
+    src: url("/assets/fonts/techno_hideo_bold.ttf");
+}
