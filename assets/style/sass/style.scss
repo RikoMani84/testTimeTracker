@@ -53,11 +53,8 @@ body {
         }
 
         .authorization-block {
-            display: none;
-
             .login-section {
                 display: none;
-
                 .row {
                     max-width: 720px;
                     margin: 0 auto;
@@ -106,7 +103,7 @@ body {
             }
 
             .register-section {
-
+                display: none;
                 .row {
                     max-width: 720px;
                     margin: 0 auto;
