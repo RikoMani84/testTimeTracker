@@ -24,23 +24,46 @@ body {
     }
 
     .main-page {
+.primary-block{
+    max-width: 720px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 50px;
+    background-color: #000000c2;
+    color: #ffffff;
+    border-radius: 10px;
+    .main-title{
+        font-size: 48px;
+        margin-bottom: 32px;
+        span{
+            color: #ff4f4f;
+        }
+    }
+    h3{
+        margin-bottom: 32px;
+    }
+    
 
+}
         .authorization-block {
-
+display: none;
             .login-section {
+                display: none;
                 .row {
                     max-width: 720px;
                     margin: 0 auto;
                     display: block;
                     padding: 16px;
                     border-radius: 10px;
-                   box-shadow: 8px 8px 10px #8b3c3c;
+                    box-shadow: 8px 8px 10px #8b3c3c;
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     font-weight: 900;
-                    .title{
+
+                    .title {
                         text-align: center;
                         font-family: "techno_hideo";
                     }
+
                     .col-md-4 {
                         width: 100%;
                     }
@@ -50,21 +73,73 @@ body {
                             display: flex;
                             justify-content: space-between;
                         }
-                        .btn-link{
+
+                        .btn-link {
                             text-decoration: none;
                             color: black;
                         }
-                        .btn-link:hover{
+
+                        .btn-link:hover {
                             text-shadow: 2px 2px #ffffff;
                         }
                     }
-                    .col-12:last-child{
-display: flex;
-justify-content: center;
-.btn-dark{
-    padding: 16px;
-    width: 150px;
-}
+
+                    .col-12:last-child {
+                        display: flex;
+                        justify-content: center;
+
+                        .btn-dark {
+                            padding: 16px;
+                            width: 150px;
+                        }
+                    }
+                }
+            }
+            .register-section{
+                
+                .row {
+                    max-width: 720px;
+                    margin: 0 auto;
+                    display: block;
+                    padding: 16px;
+                    border-radius: 10px;
+                    box-shadow: 8px 8px 10px #8b3c3c;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-weight: 900;
+
+                    .title {
+                        text-align: center;
+                        font-family: "techno_hideo";
+                    }
+
+                    .col-md-4 {
+                        width: 100%;
+                    }
+
+                    .col-12 {
+                        .form-check {
+                            display: flex;
+                            justify-content: space-between;
+                        }
+
+                        .btn-link {
+                            text-decoration: none;
+                            color: black;
+                        }
+
+                        .btn-link:hover {
+                            text-shadow: 2px 2px #ffffff;
+                        }
+                    }
+
+                    .col-12:last-child {
+                        display: flex;
+                        justify-content: center;
+
+                        .btn-dark {
+                            padding: 16px;
+                            width: 150px;
+                        }
                     }
                 }
             }

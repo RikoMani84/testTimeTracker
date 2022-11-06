@@ -15,34 +15,81 @@ body {
       color: black; }
       body .header-page a span {
         color: white; }
-  body .main-page .authorization-block .login-section .row {
+  body .main-page .primary-block {
     max-width: 720px;
-    margin: 0 auto;
-    display: block;
-    padding: 16px;
-    border-radius: 10px;
-    box-shadow: 8px 8px 10px #8b3c3c;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 900; }
-    body .main-page .authorization-block .login-section .row .title {
-      text-align: center;
-      font-family: "techno_hideo"; }
-    body .main-page .authorization-block .login-section .row .col-md-4 {
-      width: 100%; }
-    body .main-page .authorization-block .login-section .row .col-12 .form-check {
-      display: flex;
-      justify-content: space-between; }
-    body .main-page .authorization-block .login-section .row .col-12 .btn-link {
-      text-decoration: none;
-      color: black; }
-    body .main-page .authorization-block .login-section .row .col-12 .btn-link:hover {
-      text-shadow: 2px 2px #ffffff; }
-    body .main-page .authorization-block .login-section .row .col-12:last-child {
-      display: flex;
-      justify-content: center; }
-      body .main-page .authorization-block .login-section .row .col-12:last-child .btn-dark {
+    margin: 100px auto;
+    text-align: center;
+    padding: 50px;
+    background-color: #000000c2;
+    color: #ffffff;
+    border-radius: 10px; }
+    body .main-page .primary-block .main-title {
+      font-size: 48px;
+      margin-bottom: 32px; }
+      body .main-page .primary-block .main-title span {
+        color: #ff4f4f; }
+    body .main-page .primary-block h3 {
+      margin-bottom: 32px; }
+  body .main-page .authorization-block {
+    display: none; }
+    body .main-page .authorization-block .login-section {
+      display: none; }
+      body .main-page .authorization-block .login-section .row {
+        max-width: 720px;
+        margin: 0 auto;
+        display: block;
         padding: 16px;
-        width: 150px; }
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px #8b3c3c;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 900; }
+        body .main-page .authorization-block .login-section .row .title {
+          text-align: center;
+          font-family: "techno_hideo"; }
+        body .main-page .authorization-block .login-section .row .col-md-4 {
+          width: 100%; }
+        body .main-page .authorization-block .login-section .row .col-12 .form-check {
+          display: flex;
+          justify-content: space-between; }
+        body .main-page .authorization-block .login-section .row .col-12 .btn-link {
+          text-decoration: none;
+          color: black; }
+        body .main-page .authorization-block .login-section .row .col-12 .btn-link:hover {
+          text-shadow: 2px 2px #ffffff; }
+        body .main-page .authorization-block .login-section .row .col-12:last-child {
+          display: flex;
+          justify-content: center; }
+          body .main-page .authorization-block .login-section .row .col-12:last-child .btn-dark {
+            padding: 16px;
+            width: 150px; }
+    body .main-page .authorization-block .register-section .row {
+      max-width: 720px;
+      margin: 0 auto;
+      display: block;
+      padding: 16px;
+      border-radius: 10px;
+      box-shadow: 8px 8px 10px #8b3c3c;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: 900; }
+      body .main-page .authorization-block .register-section .row .title {
+        text-align: center;
+        font-family: "techno_hideo"; }
+      body .main-page .authorization-block .register-section .row .col-md-4 {
+        width: 100%; }
+      body .main-page .authorization-block .register-section .row .col-12 .form-check {
+        display: flex;
+        justify-content: space-between; }
+      body .main-page .authorization-block .register-section .row .col-12 .btn-link {
+        text-decoration: none;
+        color: black; }
+      body .main-page .authorization-block .register-section .row .col-12 .btn-link:hover {
+        text-shadow: 2px 2px #ffffff; }
+      body .main-page .authorization-block .register-section .row .col-12:last-child {
+        display: flex;
+        justify-content: center; }
+        body .main-page .authorization-block .register-section .row .col-12:last-child .btn-dark {
+          padding: 16px;
+          width: 150px; }
 
 @font-face {
   font-family: "techno_hideo";
