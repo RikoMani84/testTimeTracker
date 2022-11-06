@@ -3,23 +3,21 @@ const email = document.getElementById("email")
 const password = document.getElementById("password")
 const save = document.getElementById("save");
 
-const register = document.getElementById("register");
-const primary_block = document.getElementById("primary-block");
 
-export function open_register_block() {
-    register.style.display = "block";
-    primary_block.style.display = "none";
-};
+$(function(){
 
-export function addUsers() {
-    save.addEventListener("click", function(){
-    
-        data = {
-            "name":name.value,
-            "email":email.value,
-            "password":password.value
-        }
-    
-        jsonText.innerText = JSON.stringify(data)
+    $('#test').on('submit', function(){
+
+        let data = $(this).serialize();
+
+        $.ajax({
+            method: 'POST',
+            url: 'test.php',
+            data: data
+        }).done(function( msg ){
+            console.log( msg );
+        });
+
+        return false;
     });
-}
+});

@@ -23,7 +23,7 @@
         <div class="primary-block" id="primary-block">
             <h1 class="main-title">Welcome to Tech<span>Cells</span></h1>
             <h3>Do you want to clock in/out?</h3>
-            <button type="button" class="btn btn-light" id="btn_open" onclick="open_register_block()">Clock in/out</button>
+            <button type="button" class="btn btn-light" id="btn_open">Clock in/out</button>
         </div>
         <div class="authorization-block">
             <div class="login-section" id="login">
@@ -54,7 +54,7 @@
                 </form>
             </div>
             <div class="register-section" id="register">
-                <form class="row g-3">
+                <form class="row g-3" method="post">
                     <h1 class="title">Sign up</h1>
                     <div class="col-md-4">
                         <label for="name" class="form-label">Name</label>
@@ -76,11 +76,11 @@
                                     remember me
                                 </label>
                             </div>
-                            <button type="button" class="btn btn-link" id="save" onclick="open_login_block()">Sign in</button>
+                            <button type="button" class="btn btn-link" id="btn_login">Sign in</button>
                         </div>
                     </div>
                     <div class="col-12">
-                        <button class="btn btn-dark" type="submit">Sign up</button>
+                        <button class="btn btn-dark" type="submit" id="save">Sign up</button>
                     </div>
                 </form>
             </div>
