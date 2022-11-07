@@ -24,7 +24,8 @@ body {
     }
 
     .main-page {
-        .primary-block {
+
+        .primary-block{
             max-width: 720px;
             margin: 100px auto;
             text-align: center;
@@ -32,6 +33,7 @@ body {
             background-color: #000000c2;
             color: #ffffff;
             border-radius: 10px;
+
             .main-title {
                 font-size: 48px;
                 margin-bottom: 32px;
@@ -40,14 +42,39 @@ body {
                     color: #ff4f4f;
                 }
             }
+
             h3 {
                 margin-bottom: 32px;
             }
-            .time-section{
-                display: none;
+
+        }
+
+        .secondary-block {
+            display: none;
+            max-width: 720px;
+            margin: 100px auto;
+            text-align: center;
+            padding: 50px;
+            background-color: #000000c2;
+            color: #ffffff;
+            border-radius: 10px;
+
+            .main-title {
+                font-size: 48px;
+                margin-bottom: 32px;
+
+                span {
+                    color: #ff4f4f;
+                }
+            }
+
+            h3 {
+                margin-bottom: 32px;
+            }
+
+            .time-section {
                 font-size: 72px;
                 padding: 16px;
-                border: 1px solid;
                 margin-bottom: 32px;
             }
         }
@@ -55,6 +82,7 @@ body {
         .authorization-block {
             .login-section {
                 display: none;
+
                 .row {
                     max-width: 720px;
                     margin: 0 auto;
@@ -104,6 +132,7 @@ body {
 
             .register-section {
                 display: none;
+
                 .row {
                     max-width: 720px;
                     margin: 0 auto;

@@ -9,8 +9,8 @@ xhttp.onreadystatechange = function () {
             item += `<tr>
                     <th scope="row">${employees[i].name}</th>
                     <td>${employees[i].email}</td>
-                    <td>00:00:00</td>
-                    <td>00:00:00</td>
+                    <td>${employees[i].clock_in}</td>
+                    <td>${employees[i].clock_out}</td>
                   </tr>
                 `
         }

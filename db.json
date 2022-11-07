@@ -10,45 +10,45 @@
   "employees": [
     {
       "id": 1,
-      "name": "Rikki",
       "email": "rikki@mun.com",
-      "password": "rikkimun"
+      "password": "rikkimun",
+      "clock_in": "09:25",
+      "clock_out": "18:25"
     },
     {
-      "id": 2,
-      "name": "Monti",
-      "email": "monti@rik.com",
-      "password": "montirik"
+      "email": "mail@tashpmi.uz",
+      "password": "qwerty",
+      "id": 2
     },
     {
-      "name": "",
-      "email": "",
-      "password": "",
+      "email": "vesil55719@haboty.com",
+      "password": "qwerty",
       "id": 3
     },
     {
-      "name": "",
-      "email": "",
-      "password": "",
+      "email": "vesil55719@haboty.com",
+      "password": "qwerty",
       "id": 4
     },
     {
-      "name": {},
-      "email": {},
-      "password": {},
+      "email": "mail@tashpmi.uz",
+      "password": "qwerty",
       "id": 5
     },
     {
-      "name": {},
-      "email": {},
-      "password": {},
+      "email": "tokyorevenger1984@gmail.com",
+      "password": "5555555555",
       "id": 6
     },
     {
-      "name": "",
-      "email": "",
-      "password": "",
+      "email": "vesil55719@haboty.com",
+      "password": "5555555555",
       "id": 7
+    },
+    {
+      "email": "vesil55719@haboty.com",
+      "password": "5555555555",
+      "id": 8
     }
   ]
 }
