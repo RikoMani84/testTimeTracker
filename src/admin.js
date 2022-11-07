@@ -1,25 +1,22 @@
 var xhttp = new XMLHttpRequest;
-const table_tbody = document.getElementById("table_tbody");
 xhttp.onreadystatechange = function () {
-    if(this.readyState == 4 && this.status==200){
-        let response = JSON.parse(xhttp.responseText)
-        let employees = response.employees;
-        // let out = '';
+    if (this.readyState == 4 && this.status == 200) {
+        var response = JSON.parse(xhttp.responseText);
+        var employees = response;
+        var item = '';
+        for (var i = 0; i < employees.length; i++) {
 
-        // for (let emp in employees) {
-        //     out +=`<tr>
-        //             <th scope="row">'${emp.name}'</th>
-        //             <td>'${emp.email}'</td>
-        //             <td></td>
-        //             <td></td>
-        //           </tr>`
-        // }
-        // table_tbody.innerHTML = out;
-
-        console.log(employees);
+            item += `<tr>
+                    <th scope="row">${employees[i].name}</th>
+                    <td>${employees[i].email}</td>
+                    <td>00:00:00</td>
+                    <td>00:00:00</td>
+                  </tr>
+                `
+        }
+        document.getElementById('table_tbody').innerHTML = item;
     }
-}
-
+};
 
 xhttp.open("GET", "http://localhost:3000/employees", true);
 xhttp.send();
