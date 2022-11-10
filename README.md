@@ -14,3 +14,10 @@ Requirements for Front End
 ### 3. sign up for admin -> api/admin/signup
 ### 4. admin dashboard result -> api/admin/employees/overview
 ### 5. use temp value since you do not have back end side of the application.
+
+
+
+
+
+
+##### P.S <em>unfinished project</em>
