@@ -26,6 +26,8 @@ body {
     .main-page {
 
         .primary-block{
+            display: none;
+
             max-width: 720px;
             margin: 100px auto;
             text-align: center;
@@ -50,7 +52,7 @@ body {
         }
 
         .secondary-block {
-            display: none;
+            // display: none;
             max-width: 720px;
             margin: 100px auto;
             text-align: center;

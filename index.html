@@ -30,12 +30,16 @@
             <div class="login-section" id="login">
                 <form class="row g-3">
                     <div class="col-md-4">
+                        <label for="_name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="_name">
+                    </div>
+                    <div class="col-md-4">
                         <label for="email" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="email">
                     </div>
                     <div class="col-md-4">
                         <label for="password" class="form-label">Password</label>
-                        <input type="text" class="form-control" id="password">
+                        <input type="password" class="form-control" id="password">
                     </div>
                     <div class="col-12">
                         <button class="btn btn-dark" type="submit" id="enter" >Login</button>
@@ -44,7 +48,7 @@
             </div>
         </div>
         <div class="secondary-block" id="secondary-block">
-            <h1 class="main-title">Hello, <span id="name"></span></h1>
+            <h1 class="main-title" id="titleSC"></h1>
             <div class="time-section">
                 <h1 class="message" id="message"></h1>
             </div>

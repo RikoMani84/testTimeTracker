@@ -10,45 +10,11 @@
   "employees": [
     {
       "id": 1,
+      "name":"Rikki",
       "email": "rikki@mun.com",
       "password": "rikkimun",
       "clock_in": "09:25",
       "clock_out": "18:25"
-    },
-    {
-      "email": "mail@tashpmi.uz",
-      "password": "qwerty",
-      "id": 2
-    },
-    {
-      "email": "vesil55719@haboty.com",
-      "password": "qwerty",
-      "id": 3
-    },
-    {
-      "email": "vesil55719@haboty.com",
-      "password": "qwerty",
-      "id": 4
-    },
-    {
-      "email": "mail@tashpmi.uz",
-      "password": "qwerty",
-      "id": 5
-    },
-    {
-      "email": "tokyorevenger1984@gmail.com",
-      "password": "5555555555",
-      "id": 6
-    },
-    {
-      "email": "vesil55719@haboty.com",
-      "password": "5555555555",
-      "id": 7
-    },
-    {
-      "email": "vesil55719@haboty.com",
-      "password": "5555555555",
-      "id": 8
     }
   ]
 }
